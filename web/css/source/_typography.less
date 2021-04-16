@@ -41,8 +41,15 @@
     );
 
     .lib-font-face(
-        @family-name: 'Muli-Bold',
+        @family-name: @font-family-name__muli-bold,
         @font-path: '@{baseDir}fonts/Muli-Bold',
+        @font-style: normal,
+        @font-display: swap
+    );
+
+    .lib-font-face(
+        @family-name: @font-family-name__muli-regular,
+        @font-path: '@{baseDir}fonts/Muli-Regular',
         @font-style: normal,
         @font-display: swap
     );

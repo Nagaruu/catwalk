@@ -57,7 +57,7 @@
                 <height>75</height>
             </image>
             <image id="new_products_content_widget_grid" type="small_image">
-                <width>310</width>
+                <width>304</width>
                 <height>200</height>
             </image>
             <image id="new_products_content_widget_list" type="small_image">

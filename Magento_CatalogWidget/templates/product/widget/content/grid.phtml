@@ -69,9 +69,9 @@ use Magento\Framework\App\Action\Action;
                                                             <input type="hidden" name="<?= /* @noEscape */ Action::PARAM_NAME_URL_ENCODED ?>" value="<?= /* @noEscape */ $postParams['data'][Action::PARAM_NAME_URL_ENCODED] ?>">
                                                             <?= $block->getBlockHtml('formkey') ?>
                                                             <button type="submit"
-                                                                    title="<?= $block->escapeHtmlAttr(__('Add to Cart')) ?>"
+                                                                    title="<?= $block->escapeHtmlAttr(__('Shop now')) ?>"
                                                                     class="action tocart primary">
-                                                                <span><?= $block->escapeHtml(__('Add to Cart')) ?></span>
+                                                                <span><?= $block->escapeHtml(__('Shop now')) ?></span>
                                                             </button>
                                                         </form>
                                                     <?php else : ?>
