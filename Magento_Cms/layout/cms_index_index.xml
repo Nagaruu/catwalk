@@ -1,0 +1,14 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="content">
+        <!-- <block class="AHT\BestSeller\Block\BestSeller" after="-" cacheable="false" name="bestseller1" template="AHT_BestSeller::bestseller.phtml">
+          </block> -->
+          <!-- <block class="AHT\BestSeller\Block\BestSeller" after="-" cacheable="false" name="bestseller2" template="AHT_BestSeller::bestseller.phtml">
+          </block> -->
+          <!-- <block class="AHT\TierPrice\Block\TierPrice" name="tierprice" template="AHT_TierPrice::tierprice.phtml" cacheable="false">
+          </block> -->
+          <!-- <block class="AHT\PurchaseOrderFilter\Block\PurchaseOrder" name="purchaseOrder" template="AHT_PurchaseOrderFilter::purchase.phtml" cacheable="false">
+          </block> -->
+        </referenceContainer>
+    </body>
+</page>

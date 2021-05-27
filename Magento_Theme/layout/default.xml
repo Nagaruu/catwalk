@@ -9,7 +9,9 @@
     <body>
         <referenceBlock name="register-link" remove="true" />
         <referenceBlock name="product.info.addtocart" remove="true" />
-        <move element="product.info.addtocart" destination="product.info.main" after="product.info.price"/>
-
+        <!-- <referenceContainer name="content">
+            <block class="Magento\Framework\View\Element\Template" name="aht.promo.popup" template="Magento_Theme::popup.phtml" />
+        </referenceContainer> -->
+        
     </body>
 </page>
